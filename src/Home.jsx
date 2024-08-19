@@ -11,9 +11,11 @@ export const Home = () => {
           Super TicTacToe
         </div>
       </Link>
+      <Link to="/connectfour">
         <div className="flex items-center justify-center h-40 bg-gray-800 rounded-lg cursor-pointer">
-          <span>Coming Soon</span>
+          <span>Connect Four</span>
         </div>
+      </Link>
         <div className="flex items-center justify-center h-40 bg-gray-800 rounded-lg cursor-pointer">
           <span>Coming Soon</span>
         </div>
